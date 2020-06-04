@@ -5,7 +5,7 @@ import logo from './../../graphics/Lineage_OS_Logo.png'
 const Header = (props) => {
     return (
         <div>
-        <header>
+        <header className="headerComponent">
             <div className="wrap">
                 <div className="logo">
                     <img src={logo} alt="logo" />

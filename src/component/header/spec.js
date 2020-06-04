@@ -3,9 +3,14 @@ import { shallow } from 'enzyme';
 import Header from './index';
 
 
+describe ('Header Component', () => {
     it('it should render without errors', () => {
         const component = shallow(<Header />);
-        const wrapper = component.find('.headerComponent');
-        expect(wrapper.length).toBe(1)
+        const header = component.find('.headerComponent');
+        const wrap = component.find('.wrap');
+        expect(header.length).toBe(1)
+        expect(wrap.length).toBe(1);
 
     });
+});
+
