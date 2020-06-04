@@ -5,8 +5,8 @@ import logo from './../../graphics/Lineage_OS_Logo.png'
 const Header = (props) => {
     return (
         <div>
-        <header className="headerComponent">
-            <div className="wrap">
+        <header data-test='headerComponent'>
+            <div data-test="wrap">
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
@@ -14,7 +14,7 @@ const Header = (props) => {
             Header
         </header>
             <div className="tail">
-                https://www.youtube.com/watch?v=tYMLXpOJtng - 18:21
+                https://www.youtube.com/watch?v=tYMLXpOJtng - 35:21
             </div>
         </div>
     )
